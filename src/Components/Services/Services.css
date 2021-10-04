@@ -1,0 +1,22 @@
+.school-features{
+    background-color: lightgray;
+    margin-top: 7px;
+}
+#h-1{
+    color: orangered;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+}
+.features-info{
+   display: grid;
+   grid-template-columns: repeat(2,1fr); 
+}
+.btn{
+height: 50px;
+font-size: large;
+font-weight: bold;
+margin-bottom: 3px;
+border-radius: 7px;
+}
+ 
+ 
