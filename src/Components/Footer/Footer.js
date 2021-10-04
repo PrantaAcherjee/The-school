@@ -15,6 +15,8 @@ import {
 const Footer = () => {
     return (
         <div>
+            {/* footer section started  */}
+
             <div className="footer-container">
                 <div className="container">
                     <div className="row">

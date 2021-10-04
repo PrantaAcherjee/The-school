@@ -7,8 +7,11 @@ const Faq = () => {
     return (
         <div className="faq-section">
             <div>
+                {/* including menu bar  */}
                 <HeaderMenu></HeaderMenu>
             </div>
+            {/* frequently asked question added  */}
+
             <div>
                 <div className="row">
                     <div className="col-md-4 bg-dark">

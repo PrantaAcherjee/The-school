@@ -10,6 +10,8 @@ import Faq from './Components/FAQ/Faq';
 function App() {
   return (
     <div className="App">
+      {/* Router section added  */}
+
       <BrowserRouter>
         <Switch>
           <Route exact path="/">

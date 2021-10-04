@@ -4,8 +4,9 @@ import HeaderMenu from '../HeaderMenu/HeaderMenu';
 
 const Header = () => {
     return (
+        // header section started 
         <div className="banner-container ">
-            <div className="">
+            <div>
                 <div className="row d-flex banner align-items-center justify-content-center">
                     <HeaderMenu></HeaderMenu>
                     <div className="col-md-6">

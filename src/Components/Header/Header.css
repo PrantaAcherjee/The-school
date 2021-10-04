@@ -1,3 +1,4 @@
+/* background banner  */
 .banner {
     background-image: url("https://images.unsplash.com/photo-1610552254576-9500a3e99999?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=717&q=80"),
       linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
@@ -8,6 +9,7 @@
     background-size: cover;
     background-position: center;
   }
+  /* banner title  */
   .title {
     color: yellow;
     font-weight: bold;

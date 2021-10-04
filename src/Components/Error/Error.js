@@ -3,6 +3,7 @@ import "./Error.css"
 
 const Error = () => {
     return (
+        // error section added 
         <div className="Error-div">
             <div style={{ color: "yellow" }}>
                 <i class="fas fa-exclamation-triangle"></i>
