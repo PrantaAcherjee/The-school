@@ -20,7 +20,8 @@ const ServicesTwo = () => {
                 <div>
                     <Row xs={1} md={3} className="g-4">
                         {
-                            display.map(dp => <Col>
+                            display.map(dp => <Col
+                                key={dp.key}>
                                 <Card>
                                     <Card.Img variant="top" src={dp.img} />
                                     <Card.Body>

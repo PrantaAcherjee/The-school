@@ -16,7 +16,7 @@ const Services = () => {
             <div className="">
                 <Row xs={1} md={2} className="g-4">
                     {
-                        services.map(service => <Col>
+                        services.map(service => <Col key={service.key}>
                             <Card>
                                 <Card.Img variant="top" src={service.img} />
                                 <Card.Body>
